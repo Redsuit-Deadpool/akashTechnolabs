@@ -1,6 +1,7 @@
-import random
-num = random.randint(-20,20)
-if(num<10):
-    print(num,"is less than 10 and square of",num,"is:",num**2,".")
-else:
-    print(num,"is greater than 10.")
+n1 = int(input("Enter the first number: "))
+n2 = int(input("Enter the second number: "))
+temp = n1
+n1 = n2
+n2 = temp
+print("First number after swapping:",n1)
+print("Second number after swapping:",n2)
